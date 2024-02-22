@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suiteloginlead]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Testloginlead(failed)">
+    <classes>
+      <class name="com.salesforce.automationtest.ContactsModule">
+        <methods>
+          <include name="Checkrecentlycreatedcontactinthecontactpage"/>
+          <include name="setUpBeforeMethod"/>
+          <include name="Checktheerrormessage"/>
+          <include name="saveandnewbtn"/>
+          <include name="tearDownAfterTestMethod"/>
+          <include name="Checkthecancelbutton"/>
+        </methods>
+      </class> <!-- com.salesforce.automationtest.ContactsModule -->
+      <class name="com.salesforce.automationtest.LoginModule">
+        <methods>
+          <include name="setUpBeforeMethod"/>
+          <include name="CheckRemeberMe_3"/>
+          <include name="Login_Error_Message_1"/>
+          <include name="tearDownAfterTestMethod"/>
+        </methods>
+      </class> <!-- com.salesforce.automationtest.LoginModule -->
+      <class name="com.salesforce.automationtest.LeadsModule">
+        <methods>
+          <include name="Leadtab"/>
+          <include name="defaultview"/>
+          <include name="setUpBeforeMethod"/>
+          <include name="todayslead"/>
+          <include name="tearDownAfterTestMethod"/>
+        </methods>
+      </class> <!-- com.salesforce.automationtest.LeadsModule -->
+    </classes>
+  </test> <!-- Testloginlead(failed) -->
+</suite> <!-- Failed suite [Suiteloginlead] -->

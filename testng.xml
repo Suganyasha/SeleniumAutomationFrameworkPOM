@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suiteloginlead">
+  <test thread-count="5" name="Testloginlead">
+    <classes>
+      <class name="com.salesforce.automationtest.LeadsModule"/>
+      <class name="com.salesforce.automationtest.LoginModule"/>
+        <class name="com.salesforce.automationtest.ContactsModule"/>
+    </classes>
+  </test> <!-- Testloginlead -->
+</suite> <!-- Suiteloginlead -->
